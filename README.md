@@ -5,7 +5,7 @@
 
 [Goal](#goal)
 
-[User's manual](#user-s-manual)
+[User's manual](#users-manual)
 
 [Classes and methods](#classes-and-methods)
 
