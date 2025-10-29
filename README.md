@@ -47,3 +47,7 @@ The goal is to guess a random generated number. Tha player can replay the game i
       - userContinue : String used to get the input of the player to control what has been typed
       - containsYN : Boolean indicating that a correct input has been typed by the player
     - Methods :
+      - Game (constructor) : initializes variables
+      - enterNumber : asks a number to the player and displays an error if anything other than a number has been typed
+      - displayStep : indicates to the player if they guessed right or not and updates the score
+      - userChoiceGame : asks the player if they want to (re)play the game
