@@ -29,3 +29,21 @@ The goal is to guess a random generated number. Tha player can replay the game i
   - Else the computer displays an error and asks a letter again.
 
 ## Classes and methods
+  - Main class (BaseTP1Game) :
+    - At the beginning of the program, a Game object is initialized
+    - The computer asks the player if they want to play using the userChoiceGame function from the Game class
+    - While the player doesn't indicate that they want to quit the game, the computer asks a number with the enterNumber function and user the displaySteps of the Game class to indicates to the player if they have to enter a new number or if they have guessed right
+    - Once the player has indicated that they want to quit the game, the program ends
+  - Game class :
+    - Attributes :
+      - min : Minimum number to find - 1
+      - max : Maximum number to find - 1
+      - range : Range in which the number must be chosen
+      - nbRandom : random generated number
+      - userChoixce : number chosen by the player
+      - scan : Scanner used to get the player's input
+      - score : Number of tries
+      - continueGame : Boolean to indicates if the player wants to replay the game
+      - userContinue : String used to get the input of the player to control what has been typed
+      - containsYN : Boolean indicating that a correct input has been typed by the player
+    - Methods :
